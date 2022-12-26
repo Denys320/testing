@@ -1,0 +1,62 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --button-color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav a {
+  color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav a {
+  color: var(--primary-text-color);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--button-color);
+  background-color: var(--accent-color);
+  front-size: 24px;
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+/* What we have*/
+
+.title {
+  color: var(--title-text-color);
+}
+
+.features-list .title-text {
+  color: var(--primary-text-color);
+}
+
+/* What we are douing*/
+
+.our-work img:hover {
+  color: var(--accent-color);
+}
+
+/* Our team*/
+
+.logo {
+  display: block;
+}
+/* Footer*/

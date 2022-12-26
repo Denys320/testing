@@ -1,107 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html">
-          <!--WebStudio-->
-          <img src="./code/images/Logo.svg" alt="WebStudio logo" />
+        <a href="index.html" class="logo">
+          <h1>WebStudio</h1>
         </a>
 
-        <ul>
+        <ul class="site-nav">
           <li>
-            <a href="">
-              <!--studio-->
-              <img src="./code/images/Студія.svg" alt="studio" />
-            </a>
+            <a href="#">Студія</a>
           </li>
           <li>
-            <a href="">
-              <!--portfolio-->
-              <img src="./code/images/Портфоліо.svg" alt="portfolio" />
-            </a>
+            <a href="#">Портфоліо</a>
           </li>
           <li>
-            <a href="">
-              <!--contacts-->
-              <img src="./code/images/Контакти.svg" alt="contacts" />
-            </a>
+            <a href="#">Контакти</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="auth-nav">
         <li>
-          <a href="">
-            <img src="./code/images/info@devstudio.com.svg" alt="e-mail link" />
-            <!--e-mail adress-->
-          </a>
-          <img src="./code/images/Vector.svg" alt="mouse" />
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href=""
-            >+38 096 111 11 11
-            <!--phone namber-->
-          </a>
+          <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
 
-    <main lang="uk">
-      <div>
-        <section>
-          <h1>
-            Ефективні рішення для<br />
-            вашого бізнесу
-          </h1>
-          <a href="">Замовити послугу</a>
-        </section>
+    <main>
+      <section>
+        <h2>
+          Ефективні рішення для<br />
+          вашого бізнесу
+        </h2>
+        <button class="button" type="button">Замовити послугу</button>
+      </section>
 
-        <!--What we have-->
-        <section>
-          <ul>
-            <li>
-              <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p>
-                Ідейні міркування, i навіть початок<br />
-                повсякденної роботи з формування<br />
-                позиції.
-              </p>
-            </li>
-            <li>
-              <h3>ПУНКТУАЛЬНІСТЬ</h3>
-              <p>
-                Завдання організації, особливо рамки<br />
-                i місце навчання кадрів тягне у себе.
-              </p>
-            </li>
-            <li>
-              <h3>ПЛАНУВАННЯ</h3>
-              <p>
-                Так само консультація з широким<br />
-                активом значною мірою зумовлює.
-              </p>
-            </li>
-            <li>
-              <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p>
-                Значимість цих проблем настільки<br />
-                очевидна, що реалізація планових<br />
-                завдань.
-              </p>
-            </li>
-          </ul>
-        </section>
-      </div>
+      <!--What we have-->
+      <section class="features-list">
+        <ul>
+          <li>
+            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="title-text">
+              Ідейні міркування, i навіть початок<br />
+              повсякденної роботи з формування<br />
+              позиції.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="title-text">
+              Завдання організації, особливо рамки<br />
+              i місце навчання кадрів тягне у себе.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">ПЛАНУВАННЯ</h3>
+            <p class="title-text">
+              Так само консультація з широким<br />
+              активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="title-text">
+              Значимість цих проблем настільки<br />
+              очевидна, що реалізація планових<br />
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
 
       <!--What we are douing-->
-      <section>
+      <section class="our-work">
         <h2>Чим ми займаємося</h2>
         <img src="./code/images/img.svg" alt="typing on keyboard" />
         <img src="./code/images/img(1).svg" alt="writing in phone" />
@@ -113,22 +101,22 @@
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="./code/images/1.svg" alt="person 1" />
+            <img src="./code/images/1.svg" alt="igor designer" />
             <h4>Ігор Дем'яненко</h4>
             <p>Product Designer</p>
           </li>
           <li>
-            <img src="./code/images/2.svg" alt="person 2" />
+            <img src="./code/images/2.svg" alt="olga developer" />
             <h4>Ольга Рєпіна</h4>
             <p>Frontend Developer</p>
           </li>
           <li>
-            <img src="./code/images/3.svg" alt="person 3" />
+            <img src="./code/images/3.svg" alt="mykola marketing" />
             <h4>Микола Тарасов</h4>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./code/images/4.svg" alt="person 4" />
+            <img src="./code/images/4.svg" alt="misha designer" />
             <h4>Михайло Єрмаков</h4>
             <p>UI Designer</p>
           </li>
@@ -137,21 +125,20 @@
     </main>
 
     <!--Footer-->
+
     <footer>
       <ul>
         <li>
-          <a href="index.html"
-            ><img src="./code/images/L1.svg" alt="WebStudio logo" />
-          </a>
+          <a href="index.html">WebStudio</a>
         </li>
         <li>
-          <a href="">м. Київ, пр-т Лесі Українки, 26</a>
+          <a href="#">м. Київ, пр-т Лесі Українки, 26</a>
         </li>
         <li>
-          <a href="">info@devstudio.com</a>
+          <a href="#">info@devstudio.com</a>
         </li>
         <li>
-          <a href="">+38 096 111 11 11</a>
+          <a href="#">+38 096 111 11 11</a>
         </li>
       </ul>
     </footer>
